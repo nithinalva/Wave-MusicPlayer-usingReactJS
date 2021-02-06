@@ -1,0 +1,35 @@
+.song-container{
+    min-height: 60vh;
+    // background-color: blanchedalmond;
+    display: flex; // puts everthing in the same line
+    flex-direction:  column; // puts back in column wise 
+    align-items: center;    // it pushes the item to center 
+    justify-content: center;// v ertically space between gives a aspcae beween them 
+img{
+    width: 20%; // size 
+    border-radius: 50%;     //circle ui
+
+
+  
+}
+
+
+h1{
+    padding: 3rem 1rem 1rem 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2{
+    font-size: 15px;        //author names 
+    color: dimgrey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+}
+
+@media screen and (max-width:768px){
+    .song-container{
+        img{
+            width: 60%;
+        }
+    }
+}
